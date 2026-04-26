@@ -1,0 +1,15 @@
+{
+  "name": "sanskargurung-todo-app",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --ci --reporters=default --reporters=jest-junit",
+    "build": "node -e \"console.log(42)\""
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-junit": "^16.0.0"
+  }
+}

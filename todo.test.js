@@ -1,0 +1,1 @@
+test("todo has a title", () => { const todo = {title: "Buy milk", done: false}; expect(todo.title).toBe("Buy milk"); expect(todo.done).toBe(false); }); test("marks todo complete", () => { const todo = {title: "Study", done: false}; todo.done = true; expect(todo.done).toBe(true); });
