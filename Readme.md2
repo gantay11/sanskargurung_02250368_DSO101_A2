@@ -1,0 +1,15 @@
+##CI/CD Pipeline
+
+## How I configured the pipeline
+- Installed Jenkins on Windows using the jenkins.war file
+- Configured a Freestyle project in Jenkins
+- Set up build steps to run npm install, npm run build, and npm test
+- Used Jest with jest-junit for unit testing
+- Connected the pipeline to the local project directory
+
+## Challenges faced
+- Jenkins plugin installation failed due to unstable mobile data connection
+- Resolved DNS issues by manually downloading and installing .hpi plugin files
+- Fixed branch specifier from master to main for GitHub integration
+- Used local project path instead of GitHub checkout due to network limitations
+
